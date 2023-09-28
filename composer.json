@@ -1,0 +1,33 @@
+{
+  "name": "porox/fns-m4d-client",
+  "description": "PHP client for m4d.nalog  https://m4d.nalog.gov.ru ",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yury Dombrovsky",
+      "email": "yDombrovsky95@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"Porox\\FNSM4D\\Client\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Porox\\FNSM4D\\Tests\\": "tests/"}
+  },
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "~6.5",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.18",
+    "phpunit/phpunit": "^8.5",
+    "vimeo/psalm": "^4.4"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  }
+}
