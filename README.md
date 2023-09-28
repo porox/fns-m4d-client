@@ -1,4 +1,7 @@
 #  Клиент для проверки машиночитаемых доверенностей (МЧД) в распределенном реестре ФНС России (m4d.nalog.gov.ru).
+[![Latest Stable Version](https://img.shields.io/packagist/v/porox/fns-m4d-client.svg)](https://packagist.org/packages/porox/fns-m4d-client)
+[![Total Downloads](https://img.shields.io/packagist/dt/porox/dfns-m4d-client.svg)](https://packagist.org/packages/porox/fns-m4d-client)
+[![Downloads Month](https://img.shields.io/packagist/dm/porox/fns-m4d-client.svg)](https://packagist.org/packages/porox/fns-m4d-client)
 ```php
 <?php
 include 'vendor/autoload.php';
